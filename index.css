@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+  padding: 15px;
+  height: 150vh;
+}
+
+.main-header {
+  background-color: aqua;
+  /* padding: 1px ; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0.1em;
+}
+.header p {
+  color: black;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-top: 0.5em;
+  display: table-row;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 4em;
+}
+
+.logo-text {
+  display: flex;
+}
+
+.logo-text h6 {
+  padding-right: 20px;
+  padding-bottom: 120px;
+  border: 1px solid red;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+ul {
+  padding: 0.1em;
+  border: 2px solid green;
+  display: flex;
+}
+
+ul a {
+  width: 50%;
+  height: 50%;
+  color: white;
+  background-color: brown;
+  padding: 1em;
+  text-decoration: none;
+}
+.home {
+  background-color: black;
+}
+
+.get {
+  background-color: black;
+}
+.imgpt {
+  height: 120vh;
+  width: 100%;
+  background-image: url(./images/civil\ constrution.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+
+}
